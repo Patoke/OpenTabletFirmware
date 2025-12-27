@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "--target=arm-none-eabi"
+    - "-isystemC:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/arm-none-eabi/include"
+    - "-isystemC:/Program Files (x86)/Arm GNU Toolchain arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/include"
+  Remove:
+    - "-fno-fat-lto-objects"
+    - "-fstack-usage"
