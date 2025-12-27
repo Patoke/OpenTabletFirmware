@@ -12,6 +12,12 @@ This script will create all sections that exist within the GD32F350 family of MC
 
 Just run the script in IDA Pro after the binary file has finished processing
 
+### Notes
+
+The script will try mapping SRAM data from a file named ``hi.bin``, you will have to remove this functionality or decompress the memory at the end of the FLASH/CODE section in the firmware binary
+
+The code to decompress this data and output it to ``hi.bin`` will eventually be pushed into the repository when utility projects are done, for the time being, this will error in the main script
+
 ## decrypt_fw_bin.py
 
 This script can encrypt and decrypt firmwares that come from the Gaomon or Huion firmware CDNs
