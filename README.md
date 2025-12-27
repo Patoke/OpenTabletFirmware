@@ -15,3 +15,9 @@ TODO list:
 * Requirements
 * Credits
 * Basically everything... Remember to make it as cool as possible
+
+## STATUS: NOT FUNCTIONAL
+
+Currently this project does **NOT** construct and send HID reports back to the OS and has **NOT** been tested on actual hardware because of this, please do not try to flash this into your tablets, for now, look at this code as a deep dive look into how EMR tablets work and how Gaomon implemented their systems
+
+DISCLAIMER: This project does not use any code from Gaomon or Huion and is made completely from scratch via reverse engineering of the publicly available firmware files provided by Gaomon and Huion for their firmware update tools, the only resources used to develop this project have been the GD32F350 MCU firmware library and manuals
